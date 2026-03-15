@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   flex-direction: column;
-  padding: 8px;
+  padding: 12px;
 }
 
 .icon {
@@ -46,10 +46,19 @@ body {
 .prompt {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 50px;
+}
+
+.options {
+  margin-top: 16px;
 }
 
 .header {
   font-weight: bold;
+  font-size: 20px;
+  flex-grow: 3;
+  padding: 8px;
 }
 
 
