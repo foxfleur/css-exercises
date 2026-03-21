@@ -21,8 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  flex-direction: column;
-  padding: 12px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -36,31 +36,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.prompt-heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start space-between;
-}
-
-.prompt {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0px 50px;
-}
-
-.options {
-  margin-top: 16px;
+  flex-shrink: 0;
 }
 
 .header {
-  font-weight: bold;
-  font-size: 20px;
-  flex-grow: 3;
-  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
+.text {
+  padding-bottom: 16px;
+}
 
 .close-button {
   background: #eee;
